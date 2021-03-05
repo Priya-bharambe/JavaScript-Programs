@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Check condition by using function</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <p id="p"></p>
+        <button type="button" onclick="printvalue()">Check Condition</button>
+        <script>
+            function printvalue() {
+                var i = 10;
+                var j = 6;
+                if (i < j) {
+                    document.getElementById("p").innerHTML = "value is smaller";
+                } else if (i > j) {
+                    document.getElementById("p").innerHTML = "value is greater";
+                } else {
+                    document.getElementById("p").innerHTML = "value is equal";
+                }
+            }
+        </script>
+    </body>
+</html>

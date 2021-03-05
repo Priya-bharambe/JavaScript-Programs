@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Switch case</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <p id="p"></p>
+        <button type="button" onclick="checkCondition()">Check Condition</button>
+        <script>
+            function checkCondition() {
+                var i=20;
+                switch (i) {
+                    case 5:
+                        document.getElementById('p').innerHTML = "value is 5";
+                        break;
+                    case 10:
+                        document.getElementById('p').innerHTML = "value is 10";
+                        break;
+                    case 15:
+                        document.getElementById('p').innerHTML = "value is 15";
+                        break;
+                    case 20:
+                        document.getElementById('p').innerHTML = "value is 20";
+                        break;
+                    default :
+                        document.getElementById('p').innerHTML = "value not matched";
+                }
+
+            }
+        </script>
+    </body>
+</html>

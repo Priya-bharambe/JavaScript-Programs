@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Attribute Values</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+        <button type="button" onclick="image1()">Previous</button>
+        <img id="demo" src="images/bgr7.jpeg" style="width: 100px ">
+        <button type="button" onclick="image2()">Next</button>
+        
+        <script>
+            function image1(){
+                document.getElementById("demo").src="images/bgr7.jpeg";
+            }
+            function image2(){
+                document.getElementById("demo").src="images/biryani1.jpeg";
+            }
+        </script>
+    </body>
+</html>

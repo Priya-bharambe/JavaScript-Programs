@@ -1,0 +1,8 @@
+{
+    "name": "JavaScript",
+    "version": "1.0.0",
+    "keywords": ["util", "functional", "server", "client", "browser"],
+    "author": "Felix ITs 05",
+    "contributors": [],
+    "dependencies": {}
+}
